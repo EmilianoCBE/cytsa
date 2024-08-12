@@ -9,7 +9,7 @@ export const Contacto = () => {
       <Navbar />
         <main className="flex-grow flex flex-col md:flex-row">
           <section className='flex justify-center flex-col items-center md:w-[50vw] gap-10 py-10'>
-            <h1 className='text-4xl font-bold'>Contáctanos</h1>
+            <h1 className='text-2xl md:text-[50px] font-bold'>Contáctanos</h1>
             <div className='w-[300px] md:w-[400px]'>
               <p className='text-xl py-2'>Puede comunicarse por teléfono al:</p>
               <a href="tel:+8180327700">(81)80-32-77-00</a>
