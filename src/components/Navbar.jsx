@@ -11,7 +11,7 @@ export const Navbar = () => {
   };
 
   return (
-    <header className='sticky top-0 z-[10000] mx-auto flex flex-wrap w-full items-center justify-between px-4 md:px-10 py-8 bg-white'>
+    <header className='sticky top-0 z-[10000] mx-auto flex flex-wrap w-full items-center justify-between px-4 md:px-10 py-6 bg-white'>
       <div className='logo w-[100px] md:w-[130px]'>
         <Link to="/">
           <img src='/logo.png' alt='logo'/>
@@ -20,27 +20,27 @@ export const Navbar = () => {
       <nav className='flex w-1/3 justify-end flex-wrap'>
         <div className='w-full hidden md:flex justify-end'>
           <ul className='flex justify-between gap-4'>
-            <li>
+            <li className="font-bold">
               <Link to="">
                 Inicio
               </Link>
             </li>
-            <li>
+            <li className="font-bold">
               <Link to="">
                 Productos
               </Link>
             </li>
-            <li>
+            <li className="font-bold">
               <Link to="">
                 Nosotros
               </Link>
             </li>
-            <li>
+            <li className="font-bold">
               <Link to="/contacto">
                 Contacto
               </Link>
             </li>
-            <li>
+            <li className="font-bold">
               <Link to="">
                 Blog
               </Link>
