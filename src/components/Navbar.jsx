@@ -11,8 +11,8 @@ export const Navbar = () => {
   };
 
   return (
-    <header className='sticky top-0 z-20 mx-auto flex flex-wrap w-full items-center justify-between px-8 md:px-10 py-8 bg-white'>
-      <div className='logo w-[130px]'>
+    <header className='sticky top-0 z-[500] mx-auto flex flex-wrap w-full items-center justify-between px-4 md:px-10 py-8 bg-white border-b-slate-300 border-b-2'>
+      <div className='logo w-[100px] md:w-[130px]'>
         <Link to="/">
           <img src='/logo.png' alt='logo'/>
         </Link>
@@ -36,7 +36,7 @@ export const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="">
+              <Link to="/contacto">
                 Contacto
               </Link>
             </li>
@@ -80,7 +80,7 @@ export const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="" onClick={toggleNavbar}>
+                <Link to="/contacto" onClick={toggleNavbar}>
                   Contacto
                 </Link>
               </li>
