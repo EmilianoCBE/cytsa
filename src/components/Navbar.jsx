@@ -64,27 +64,27 @@ export const Navbar = () => {
             className="mt-4 basis-full md:hidden overflow-hidden"
           >
             <ul className='flex flex-col items-center gap-4'>
-              <li>
+              <li className="font-bold">
                 <Link to="" onClick={toggleNavbar}>
                   Inicio
                 </Link>
               </li>
-              <li>
+              <li className="font-bold">
                 <Link to="" onClick={toggleNavbar}>
                   Productos
                 </Link>
               </li>
-              <li>
+              <li className="font-bold">
                 <Link to="" onClick={toggleNavbar}>
                   Nosotros
                 </Link>
               </li>
-              <li>
+              <li className="font-bold">
                 <Link to="/contacto" onClick={toggleNavbar}>
                   Contacto
                 </Link>
               </li>
-              <li>
+              <li className="font-bold">
                 <Link to="" onClick={toggleNavbar}>
                   Blog
                 </Link>
