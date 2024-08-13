@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const Hero = () => {
   return (
     <div className='flex flex-col md:flex-row'>

@@ -21,7 +21,7 @@ export const Navbar = () => {
         <div className='w-full hidden md:flex justify-end'>
           <ul className='flex justify-between gap-4'>
             <li className="font-bold">
-              <Link to="">
+              <Link to="/">
                 Inicio
               </Link>
             </li>
@@ -31,7 +31,7 @@ export const Navbar = () => {
               </Link>
             </li>
             <li className="font-bold">
-              <Link to="">
+              <Link to="/nosotros">
                 Nosotros
               </Link>
             </li>
@@ -65,7 +65,7 @@ export const Navbar = () => {
           >
             <ul className='flex flex-col items-center gap-4'>
               <li className="font-bold">
-                <Link to="" onClick={toggleNavbar}>
+                <Link to="/" onClick={toggleNavbar}>
                   Inicio
                 </Link>
               </li>
@@ -75,7 +75,7 @@ export const Navbar = () => {
                 </Link>
               </li>
               <li className="font-bold">
-                <Link to="" onClick={toggleNavbar}>
+                <Link to="/nosotros" onClick={toggleNavbar}>
                   Nosotros
                 </Link>
               </li>
