@@ -11,7 +11,7 @@ export const Navbar = () => {
   };
 
   return (
-    <header className='sticky top-0 z-[10000] mx-auto flex flex-wrap w-full items-center justify-between px-4 md:px-10 py-6 bg-white'>
+    <header className='sticky top-0 z-[10000] mx-auto flex flex-wrap w-full items-center justify-between px-4 md:px-10 py-6 bg-white border-b border-b-slate-400'>
       <div className='logo w-[100px] md:w-[130px]'>
         <Link to="/">
           <img src='/logo.png' alt='logo'/>
@@ -26,7 +26,7 @@ export const Navbar = () => {
               </Link>
             </li>
             <li className="font-bold">
-              <Link to="">
+              <Link to="/productos">
                 Productos
               </Link>
             </li>
@@ -41,7 +41,7 @@ export const Navbar = () => {
               </Link>
             </li>
             <li className="font-bold">
-              <Link to="">
+              <Link to="/blog">
                 Blog
               </Link>
             </li>
@@ -70,7 +70,7 @@ export const Navbar = () => {
                 </Link>
               </li>
               <li className="font-bold">
-                <Link to="" onClick={toggleNavbar}>
+                <Link to="/productos" onClick={toggleNavbar}>
                   Productos
                 </Link>
               </li>
@@ -85,7 +85,7 @@ export const Navbar = () => {
                 </Link>
               </li>
               <li className="font-bold">
-                <Link to="" onClick={toggleNavbar}>
+                <Link to="/blog" onClick={toggleNavbar}>
                   Blog
                 </Link>
               </li>
