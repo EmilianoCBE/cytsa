@@ -2,7 +2,7 @@ import { Carousel } from 'antd';
 
 export const AboutHero = () => {
   return (
-    <div className="py-20 px-8">
+    <div className="py-16 md:py-20 px-8">
       <h2 className="text-xl md:text-[42px] font-bold">Acerca de Nosotros</h2>
       <div className='flex flex-col-reverse gap-4 md:flex-row py-8 md:py-16'>
         <div className='md:w-[50vw]'>

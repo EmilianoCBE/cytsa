@@ -20,27 +20,27 @@ export const Navbar = () => {
       <nav className='flex w-1/3 justify-end flex-wrap'>
         <div className='w-full hidden md:flex justify-end'>
           <ul className='flex justify-between gap-4'>
-            <li className="font-bold">
+            <li className="font-bold hover:text-orange-500">
               <Link to="/">
                 Inicio
               </Link>
             </li>
-            <li className="font-bold">
+            <li className="font-bold hover:text-orange-500 transition-all ease-in-out">
               <Link to="/productos">
                 Productos
               </Link>
             </li>
-            <li className="font-bold">
+            <li className="font-bold hover:text-orange-500 transition-all ease-in-out">
               <Link to="/nosotros">
                 Nosotros
               </Link>
             </li>
-            <li className="font-bold">
+            <li className="font-bold hover:text-orange-500 transition-all ease-in-out">
               <Link to="/contacto">
                 Contacto
               </Link>
             </li>
-            <li className="font-bold">
+            <li className="font-bold hover:text-orange-500 transition-all ease-in-out">
               <Link to="/blog">
                 Blog
               </Link>
@@ -64,27 +64,27 @@ export const Navbar = () => {
             className="mt-4 basis-full md:hidden overflow-hidden"
           >
             <ul className='flex flex-col items-center gap-4'>
-              <li className="font-bold">
+              <li className="font-bold hover:text-orange-500 transition-all ease-in-out">
                 <Link to="/" onClick={toggleNavbar}>
                   Inicio
                 </Link>
               </li>
-              <li className="font-bold">
+              <li className="font-bold hover:text-orange-500 transition-all ease-in-out">
                 <Link to="/productos" onClick={toggleNavbar}>
                   Productos
                 </Link>
               </li>
-              <li className="font-bold">
+              <li className="font-bold hover:text-orange-500 transition-all ease-in-out">
                 <Link to="/nosotros" onClick={toggleNavbar}>
                   Nosotros
                 </Link>
               </li>
-              <li className="font-bold">
+              <li className="font-bold hover:text-orange-500 transition-all ease-in-out">
                 <Link to="/contacto" onClick={toggleNavbar}>
                   Contacto
                 </Link>
               </li>
-              <li className="font-bold">
+              <li className="font-bold hover:text-orange-500 transition-all ease-in-out">
                 <Link to="/blog" onClick={toggleNavbar}>
                   Blog
                 </Link>
