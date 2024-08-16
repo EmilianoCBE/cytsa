@@ -1,18 +1,18 @@
 import React from 'react'
 import { Navbar } from '../components/Navbar'
 import { Footer } from '../components/Footer'
-import { HeroAlcantarillado } from '../components/HeroAlcantarillado'
-import { DescAlcantarillado } from '../components/DescAlcantarillado'
+import { HeroC900 } from '../components/HeroC900'
+import { DescC900 } from '../components/DescC900'
 import { Scroller } from '../components/Scroller'
 
-export const ProductoAlcantarillado = () => {
+export const ProductoC900 = () => {
   return (
     <>
       <Navbar />
       <main>
-        <HeroAlcantarillado />
+        <HeroC900 />
         <Scroller />
-        <DescAlcantarillado />
+        <DescC900 />
       </main>
       <Footer />
     </>

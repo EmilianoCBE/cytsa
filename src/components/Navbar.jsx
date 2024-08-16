@@ -62,13 +62,13 @@ export const Navbar = () => {
                       <Link to="/productos/alcantarillado" className="hover:text-orange-500">Alcantarillado</Link>
                     </li>
                     <li className="py-2 px-4 hover:bg-gray-100">
-                      <Link to="/productos/sistema-hidraulico" className="hover:text-orange-500">Sistema Hidráulico</Link>
+                      <Link to="/productos/hidraulico" className="hover:text-orange-500">Sistema Hidráulico</Link>
                     </li>
                     <li className="py-2 px-4 hover:bg-gray-100">
                       <Link to="/productos/c900" className="hover:text-orange-500">C-900</Link>
                     </li>
                     <li className="py-2 px-4 hover:bg-gray-100">
-                      <Link to="/productos/cedula-80" className="hover:text-orange-500">Cedula 80</Link>
+                      <Link to="/productos/c80" className="hover:text-orange-500">Cedula 80</Link>
                     </li>
                   </motion.ul>
                 )}
@@ -132,13 +132,13 @@ export const Navbar = () => {
                         <Link to="/productos/alcantarillado" onClick={toggleNavbar} className="hover:text-orange-500">Alcantarillado</Link>
                       </li>
                       <li className="py-2 px-4 hover:bg-gray-100">
-                        <Link to="/productos/sistema-hidraulico" onClick={toggleNavbar} className="hover:text-orange-500">Sistema Hidráulico</Link>
+                        <Link to="/productos/hidraulico" onClick={toggleNavbar} className="hover:text-orange-500">Sistema Hidráulico</Link>
                       </li>
                       <li className="py-2 px-4 hover:bg-gray-100">
                         <Link to="/productos/c900" onClick={toggleNavbar} className="hover:text-orange-500">C-900</Link>
                       </li>
                       <li className="py-2 px-4 hover:bg-gray-100">
-                        <Link to="/productos/cedula-80" onClick={toggleNavbar} className="hover:text-orange-500">Cedula 80</Link>
+                        <Link to="/productos/c80" onClick={toggleNavbar} className="hover:text-orange-500">Cedula 80</Link>
                       </li>
                     </motion.ul>
                   )}
