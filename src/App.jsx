@@ -7,6 +7,7 @@ import { ProductoAlcantarillado } from './pages/ProductoAlcantarillado.jsx'
 import { ProductoHidraulico } from './pages/ProductoHidraulico.jsx'
 import { ProductoC900 } from './pages/ProductoC900.jsx'
 import { ProductoC80 } from './pages/ProductoC80.jsx'
+import { Blog } from './pages/Blog.jsx'
 
 function App() {
   return (
