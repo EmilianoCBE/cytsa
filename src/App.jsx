@@ -20,7 +20,7 @@ function App() {
         <Route path='/productos/c80' element={<ProductoC80 />} />
         <Route path='/nosotros' element={<Nosotros />} />
         <Route path='/contacto' element={<Contacto />} />
-        {/* <Route path='/blog' element={<Blog />} /> */}
+        <Route path='/blog' element={<Blog />} />
       </Routes>
     </>
   )

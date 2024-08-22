@@ -40,37 +40,37 @@ export const DescC80 = () => {
           {/* <h3 className="text-lg">
             Cople Reparación
           </h3> */}
-          <img src="/c9001.jpg" alt="" />
+          <img src="/c801.png" alt="" />
         </div>
         <div className="flex flex-col-reverse items-center justify-between border border-slate-500 hover:border-orange-500 hover:bg-orange-500 transition-all ease-in-out px-7 py-9 gap-10 hover:text-slate-100">
           {/* <h3 className="text-lg">
             Codo 45°
           </h3> */}
-          <img src="/c9002.jpg" alt=""/>
+          <img src="/c802.png" alt=""/>
         </div>
         <div className="flex flex-col-reverse items-center justify-between border border-slate-500 hover:border-orange-500 hover:bg-orange-500 transition-all ease-in-out px-7 py-9 gap-10 hover:text-slate-100">
           {/* <h3 className="text-lg">
             Extremo Espiga
           </h3> */}
-          <img src="/c9003.jpg" alt=""/>
+          <img src="/c803.png" alt=""/>
         </div>
         <div className="flex flex-col-reverse items-center justify-between border border-slate-500 hover:border-orange-500 hover:bg-orange-500 transition-all ease-in-out px-7 py-9 gap-10 hover:text-slate-100">
           {/* <h3 className="text-lg">
             Extremo Campana
           </h3> */}
-          <img src="/c9004.jpg" alt=""/>
+          <img src="/c804.png" alt=""/>
         </div>
         <div className="flex flex-col-reverse items-center justify-between border border-slate-500 hover:border-orange-500 hover:bg-orange-500 transition-all ease-in-out px-7 py-9 gap-10 hover:text-slate-100">
           {/* <h3 className="text-lg">
             Extremo Campana
           </h3> */}
-          <img src="/c9004.jpg" alt=""/>
+          <img src="/c805.png" alt=""/>
         </div>
         <div className="flex flex-col-reverse items-center justify-between border border-slate-500 hover:border-orange-500 hover:bg-orange-500 transition-all ease-in-out px-7 py-9 gap-10 hover:text-slate-100">
           {/* <h3 className="text-lg">
             Extremo Campana
           </h3> */}
-          <img src="/c9004.jpg" alt=""/>
+          <img src="/c806.png" alt=""/>
         </div>
       </div>
     </section>
